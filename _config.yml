@@ -14,3 +14,6 @@ facebook_username: al.johri
 
 # Build settings
 markdown: kramdown
+
+collections:
+  - projects
