@@ -11,12 +11,20 @@ permalink: /projects/
 
       <h3>{{project.title}}</h3>
 
-      <a href="{{project.live}}">Live</a> |
-      <a href="{{project.source}}">Source</a>
+      <ul class="project-links">
+        {% if project.live %}<li><a href="{{project.live}}">Live</a></li>{% endif %}
+        {% if project.source %}<li><a href="{{project.source}}">Source</a></li>{% endif %}
+      </ul>
 
+      {% if project.picture %}
   	  <div style="max-height: 400px; overflow: hidden;">
   	    <img src="{{project.picture}}" alt=""/>
   	  </div>
+      {% endif %}
+
+      {% if project.embed %}
+      {{ project.embed }}
+      {% endif %}
 
       <article class="post-content">
         {{ project.description | markdownify }}
