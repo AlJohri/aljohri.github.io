@@ -1,23 +1,14 @@
 ---
-layout: default
+layout: page
+title: Welcome
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<section class="homepage">
+	<aside>
+		<img src="/assets/me.jpg"/>
+	</aside>
+	<article>
+		<p> I am a software engineer interested in creatively applying engineering and data science to solve real world problems. I recently graduated with a degree in computer science from the McCormick School of Engineering at Northwestern University.</p>
+		<p> I have solid core programming skills and a strong grasp on the fundamentals of data structures, algorithms and web programming. I am always thinking about system design, scalability, optimization, and testing. I love to participate in hackathons and work on projects using machine learning to find hidden insights in data. Please take a moment to look at my <a href="projects/"> projects</a> or send me an email for a full resume.</p>
+	</article>
+</section>
