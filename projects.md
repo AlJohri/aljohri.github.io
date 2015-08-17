@@ -23,11 +23,13 @@ permalink: /projects/
       {% endif %}
 
       {% if project.embed %}
-      {{ project.embed }}
+        {{ project.embed }}
       {% endif %}
 
       <article class="post-content">
-        {{ project.description | markdownify }}
+        {% if project.description %}
+          {{ project.description | markdownify }}
+        {% endif %}
       </article>
 
       <a href="{{project.url}}">Read More</a>
