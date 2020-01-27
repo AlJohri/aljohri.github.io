@@ -7,7 +7,7 @@ pictures:
   - /assets/nushuttleeditor2.png
   - /assets/nushuttleeditor3.png
   - /assets/nushuttleeditor4.png
-description: 
+description:
 ---
 
 {% for picture in page.pictures %}

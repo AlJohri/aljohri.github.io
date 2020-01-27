@@ -3,7 +3,7 @@ layout: page
 title: politicalframing
 live: http://politicalframing.github.io
 source: https://github.com/Politicalframing/politicalframing
-description: 
+description:
 ---
 
 <!-- ![screenshot]({{page.picture}}) -->

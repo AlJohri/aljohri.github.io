@@ -2,15 +2,15 @@
 title: Al Johri
 email: al.johri@gmail.com
 description: >
-  Software Engineer | Data Scientist
+  Senior Data Scientist | ML Engineer
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://aljohri.github.io" # the base hostname & protocol for your site
-twitter_username: aljohri
-github_username:  aljohri
+twitter_username: AlJohri
+github_username:  AlJohri
+linkedin_username: https://www.linkedin.com/in/aljohri
 
 # facebook_username: al.johri
-# https://www.linkedin.com/in/aljohri
-# https://plus.google.com/+AtulJohri1993
+
 # https://bitbucket.org/aljohri
 # https://venmo.com/Al-Johri
 # https://cash.me/$AlJohri

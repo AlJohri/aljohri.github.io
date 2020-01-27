@@ -4,7 +4,7 @@ title: nusocialgraph
 live: http://aljohri.com/nusocialgraph/network/?config=cultural.json
 source: https://github.com/AlJohri/nusocialgraph/
 picture: /assets/nusocialgraph.gif
-description: 
+description:
 ---
 
 ![screenshot]({{page.picture}})

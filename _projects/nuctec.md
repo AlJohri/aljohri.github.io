@@ -2,7 +2,7 @@
 layout: page
 title: nuctec
 source: https://github.com/AlJohri/nuctec
-description: 
+description:
 ---
 
 ![screenshot]({{page.picture}})

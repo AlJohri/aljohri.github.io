@@ -4,7 +4,7 @@ title: nuze
 link: http://aljohri.com/nuze/
 source: https://github.com/AlJohri/nuze
 picture: /assets/nuze.png
-description: 
+description:
 ---
 
 ![screenshot]({{page.picture}})

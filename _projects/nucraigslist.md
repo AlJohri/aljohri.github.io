@@ -2,7 +2,7 @@
 layout: page
 title: nucraigslist
 source: https://github.com/AlJohri/nucraigslist
-description: 
+description:
 ---
 
 <!-- ![screenshot]({{page.picture}}) -->
