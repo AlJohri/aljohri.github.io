@@ -7,3 +7,10 @@ section.homepage {
 #text a {
 	text-decoration: underline dotted;
 }
+
+@media only screen and (max-width: 600px) {
+	.social-media-list {
+		font-size: 15px;
+	}
+
+}
