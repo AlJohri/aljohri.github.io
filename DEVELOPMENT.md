@@ -1,4 +1,4 @@
-## Quickstart
+# DEVELOPMENT
 
 This project uses [jekyll](https://jekyllrb.com/), a static site generator written in ruby.
 
