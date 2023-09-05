@@ -21,6 +21,8 @@ This project uses [jekyll](https://jekyllrb.com/), a static site generator writt
 3. Install [`jekyll`](https://jekyllrb.com/) version [4.2.2](https://rubygems.org/gems/jekyll/versions/4.2.2) which is the last version that continues [libass](https://github.com/sass/libsass) which is [now deprecated](https://sass-lang.com/blog/libsass-is-deprecated/) in favor of [dart-sass](https://sass-lang.com/dart-sass/). Using this older version of libsass prevents any deprecation warnings.
 
    ```shell
+   # https://talk.jekyllrb.com/t/load-error-cannot-load-such-file-webrick/5417/2
+   gem install webrick
    gem install jekyll -v 4.2.2
    jekyll serve
    ```
